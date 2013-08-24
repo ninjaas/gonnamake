@@ -16,7 +16,7 @@ Read the [Getting Started page](http://goonamake.com/start-making/) for informat
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? [Please open a new issue](https://github.com/ninjaas/goonamake/issues). Before opening any issue, please search for existing issues and read the [Issue Guidelines](CONTRIBUTING.md).
+Have a bug or a feature request? [Please open a new issue](https://github.com/ninjaas/gonnamake/issues). Before opening any issue, please search for existing issues and read the [Issue Guidelines](CONTRIBUTING.md).
 
 
 
