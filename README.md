@@ -3,7 +3,7 @@
 </a>
 
 # Gonnamake v0.0.0
-Gonnamake is an advance and powerful open-source front-end framework system for fastest customisied and easier web development, created and maintained by [Ray Ch](http://iraycd.com) - [Ninjaas](htp://ninjaas.com)
+Gonnamake is an advance and powerful open-source front-end framework system for fastest customisied and easier web development, created and maintained by [Ray Ch](http://iraycd.com) - [Ninjaas](http://ninjaas.com)
 
 [Gonnamake Documentation](http://goonamake.com/documentation/)!
 
@@ -16,7 +16,7 @@ Read the [Getting Started page](http://goonamake.com/start-making/) for informat
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? [Please open a new issue](https://github.com/ninjaas/goonamake/issues). Before opening any issue, please search for existing issues and read the [Issue Guidelines](CONTRIBUTING).
+Have a bug or a feature request? [Please open a new issue](https://github.com/ninjaas/goonamake/issues). Before opening any issue, please search for existing issues and read the [Issue Guidelines](CONTRIBUTING.md).
 
 
 
