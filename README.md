@@ -1,17 +1,17 @@
-<a href="http://goonamake.com/">
+<a href="http://gonnamake.com/">
     <img src="https://si0.twimg.com/profile_images/2690694370/d103186cdb45afbf7d4b27a653236129_bigger.png" width="100px">
 </a>
 
 # Gonnamake v0.0.0
 Gonnamake is an advance and powerful open-source front-end framework system for fastest customisied and easier web development, created and maintained by [Ray Ch](http://iraycd.com) - [Ninjaas](http://ninjaas.com)
 
-[Gonnamake Documentation](http://goonamake.com/documentation/)!
+[Gonnamake Documentation](http://gonnamake.com/documentation/)!
 
 
 
 ## Quick start
 
-Read the [Getting Started page](http://goonamake.com/start-making/) for information on the framework contents, basic template guidelines, and more.
+Read the [Getting Started page](http://gonnamake.com/start-making/) for information on the framework contents, basic template guidelines, and more.
 
 
 ## Bugs and feature requests
@@ -22,7 +22,7 @@ Have a bug or a feature request? [Please open a new issue](https://github.com/ni
 
 ## Documentation
 
-Gonnamake's docs are built using [Jekyll](http://jekyllrb.com) and hosted on [GitHub Pages](http://pages.github.com/). To view the [Gonnamake Docs](http://goonamake.com/documentation/) locally, you'll need to [install Jekyll](https://github.com/mojombo/jekyll/wiki/install) to run a local server.
+Gonnamake's docs are built using [Jekyll](http://jekyllrb.com) and hosted on [GitHub Pages](http://pages.github.com/). To view the [Gonnamake Docs](http://gonnamake.com/documentation/) locally, you'll need to [install Jekyll](https://github.com/mojombo/jekyll/wiki/install) to run a local server.
 
 
 ### Running Jekyll locally alongside Sass / Compass
@@ -37,7 +37,7 @@ You should also comment out the remote url instruction in ```_config.yml``` and 
 
 ### General Way
 
-Goonamake makes use of [Sassy CSS](http://sass-lang.com) and [Compass](http://compass-style.org), so you'll need to install both ruby gems to generate static CSS.
+gonnamake makes use of [Sassy CSS](http://sass-lang.com) and [Compass](http://compass-style.org), so you'll need to install both ruby gems to generate static CSS.
 
 ```
 $ sudo gem install sass
