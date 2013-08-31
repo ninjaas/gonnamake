@@ -1,0 +1,6 @@
+@import "vendor/normalize";
+@import "typography/variables";
+@import "typography/typeplate";
+.doc{
+    @import "typography/web-type";   
+}
