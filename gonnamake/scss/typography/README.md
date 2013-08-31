@@ -1,3 +1,6 @@
+<iframe src="//player.vimeo.com/video/40110798" width="640" height="400px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
 #Resources
 + [A-Z of Web Typography](http://hub.tutsplus.com/sessions/a-z-of-web-typography--webdesign-11706)
 + [Type rendering: operating systems](http://blog.typekit.com/2010/10/15/type-rendering-operating-systems)
@@ -12,6 +15,11 @@
 + [Improving Layout With Vertical Rhythm](http://hub.tutsplus.com/articles/improving-layout-with-vertical-rhythm--webdesign-14070)
 + [Understanding Typographic Hierarchy](http://hub.tutsplus.com/articles/understanding-typographic-hierarchy--webdesign-11636)
 
+
+## Unrelavent Resource
++ [5 Simple Typography Tips for Educators](http://www.designyourway.net/blog/resources/a-collection-of-typography-books-from-which-you-can-learn-about-this-beautiful-art/)
++ [A Collection of Typography Books From Which You Can Learn About Beautiful Art](http://www.designyourway.net/blog/resources/a-collection-of-typography-books-from-which-you-can-learn-about-this-beautiful-art/)
++ [A Closer Look At Font Rendering](http://www.smashingmagazine.com/2012/04/24/a-closer-look-at-font-rendering/)
 
 #Contributions
 + [TypePlate](https://github.com/typeplate/typeplate.github.io)
