@@ -1,4 +1,5 @@
-
+@mixin web-type(){
+  
 %bold {
   font-family: 'merriweather-bold';
   font-weight: 700;   font-style: normal;
@@ -308,6 +309,7 @@ background:  $litegray;
 
 
 
+}
 
 
 

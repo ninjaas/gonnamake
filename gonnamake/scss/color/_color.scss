@@ -1,0 +1,15 @@
+@import "variables";
+@import "modules/contrast";
+@import "modules/lightness";
+
+@import "partials/palette";
+@import "partials/text-color";
+
+@mixin color{
+    @if $palette == true {
+        @include palette;
+    }
+    @if $text-color == true{
+        @include text-color;
+    }   
+}

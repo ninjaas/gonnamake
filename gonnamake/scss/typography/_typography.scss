@@ -1,0 +1,18 @@
+@import "variables";
+@import "vendor/normalize";
+@import "typography/typeplate";
+@import "typography/web-type";
+
+@mixin typography(){
+    @if $normalize == true {
+        @include normalize;
+    }
+    @if $typeplate == true {
+        @include typeplate;
+    }
+    @if $web-type == true{
+        .doc{
+            @include web-type;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@mixin palette{
+.#{$variablePalette}{
+  @include contrasted($background);
+}
+.#{$variablePalette}-black{
+  @include contrasted($black);
+}
+.#{$variablePalette}-white{
+  @include contrasted($white);
+}
+.#{$variablePalette}-blue{
+  @include contrasted($blue);
+}
+.#{$variablePalette}-red{
+  @include contrasted($red);
+}
+.#{$variablePalette}-primary{
+  @include contrasted($primary);
+}
+.#{$variablePalette}-secondary{
+  @include contrasted($secondary);
+}
+.#{$variablePalette}-success{
+  @include contrasted($success);
+}
+.#{$variablePalette}-error{
+  @include contrasted($error);
+}
+.#{$variablePalette}-warning{
+  @include contrasted($warning);
+}
+.#{$variablePalette}-info{
+  @include contrasted($info);
+}
+
+}
