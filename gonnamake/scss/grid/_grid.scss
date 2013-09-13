@@ -1,0 +1,15 @@
+@import "modules/clearfix";
+@import "modules/grid";
+@import "partials/grid";
+@import "modules/blockgrid";
+@import "partials/blockgrid";
+@import "partials/hide";
+@mixin grid{
+    @include default-grid;
+    @if $blockgrid == true{
+        @include blockgrid;
+    }
+    @if $gridhide == true{
+        @include gridhide;
+    }
+}

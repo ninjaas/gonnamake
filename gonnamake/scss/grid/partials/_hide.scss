@@ -1,0 +1,270 @@
+@mixin gridhide{
+ 
+.hide {
+  display: none !important;
+  visibility: #{invisible} !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@media screen and (max-width: $small-screen) {
+  @-ms-viewport {
+    width: 320px;
+  }
+}
+.#{$visible}-#{$small-grid-name} {
+  display: block !important;
+}
+
+tr.#{$visible}-#{$small-grid-name} {
+  display: table-row !important;
+}
+
+th.#{$visible}-#{$small-grid-name},
+td.#{$visible}-#{$small-grid-name} {
+  display: table-cell !important;
+}
+
+.#{$visible}-#{$medium-grid-name} {
+  display: none !important;
+}
+
+tr.#{$visible}-#{$medium-grid-name} {
+  display: none !important;
+}
+
+th.#{$visible}-#{$medium-grid-name},
+td.#{$visible}-#{$medium-grid-name} {
+  display: none !important;
+}
+
+.#{$visible}-#{$large-grid-name} {
+  display: none !important;
+}
+
+tr.#{$visible}-#{$large-grid-name} {
+  display: none !important;
+}
+
+th.#{$visible}-#{$large-grid-name},
+td.#{$visible}-#{$large-grid-name} {
+  display: none !important;
+}
+
+.#{invisible}-#{$small-grid-name} {
+  display: none !important;
+}
+
+tr.#{invisible}-#{$small-grid-name} {
+  display: none !important;
+}
+
+th.#{invisible}-#{$small-grid-name},
+td.#{invisible}-#{$small-grid-name} {
+  display: none !important;
+}
+
+.#{invisible}-#{$medium-grid-name} {
+  display: block !important;
+}
+
+tr.#{invisible}-#{$medium-grid-name} {
+  display: table-row !important;
+}
+
+th.#{invisible}-#{$medium-grid-name},
+td.#{invisible}-#{$medium-grid-name} {
+  display: table-cell !important;
+}
+
+.#{invisible}-#{$large-grid-name} {
+  display: block !important;
+}
+
+tr.#{invisible}-#{$large-grid-name} {
+  display: table-row !important;
+}
+
+th.#{invisible}-#{$large-grid-name},
+td.#{invisible}-#{$large-grid-name} {
+  display: table-cell !important;
+}
+
+@media (min-width: $small-screen) and (max-width: $large-screen) {
+  .#{$visible}-#{$small-grid-name} {
+    display: none !important;
+  }
+  tr.#{$visible}-#{$small-grid-name} {
+    display: none !important;
+  }
+  th.#{$visible}-#{$small-grid-name},
+  td.#{$visible}-#{$small-grid-name} {
+    display: none !important;
+  }
+  .#{$visible}-#{$medium-grid-name} {
+    display: block !important;
+  }
+  tr.#{$visible}-#{$medium-grid-name} {
+    display: table-row !important;
+  }
+  th.#{$visible}-#{$medium-grid-name},
+  td.#{$visible}-#{$medium-grid-name} {
+    display: table-cell !important;
+  }
+  .#{$visible}-#{$large-grid-name} {
+    display: none !important;
+  }
+  tr.#{$visible}-#{$large-grid-name} {
+    display: none !important;
+  }
+  th.#{$visible}-#{$large-grid-name},
+  td.#{$visible}-#{$large-grid-name} {
+    display: none !important;
+  }
+  .#{invisible}-#{$small-grid-name} {
+    display: block !important;
+  }
+  tr.#{invisible}-#{$small-grid-name} {
+    display: table-row !important;
+  }
+  th.#{invisible}-#{$small-grid-name},
+  td.#{invisible}-#{$small-grid-name} {
+    display: table-cell !important;
+  }
+  .#{invisible}-#{$medium-grid-name} {
+    display: none !important;
+  }
+  tr.#{invisible}-#{$medium-grid-name} {
+    display: none !important;
+  }
+  th.#{invisible}-#{$medium-grid-name},
+  td.#{invisible}-#{$medium-grid-name} {
+    display: none !important;
+  }
+  .#{invisible}-#{$large-grid-name} {
+    display: block !important;
+  }
+  tr.#{invisible}-#{$large-grid-name} {
+    display: table-row !important;
+  }
+  th.#{invisible}-#{$large-grid-name},
+  td.#{invisible}-#{$large-grid-name} {
+    display: table-cell !important;
+  }
+}
+
+@media (min-width: $large-screen) {
+  .#{$visible}-#{$small-grid-name} {
+    display: none !important;
+  }
+  tr.#{$visible}-#{$small-grid-name} {
+    display: none !important;
+  }
+  th.#{$visible}-#{$small-grid-name},
+  td.#{$visible}-#{$small-grid-name} {
+    display: none !important;
+  }
+  .#{$visible}-#{$medium-grid-name} {
+    display: none !important;
+  }
+  tr.#{$visible}-#{$medium-grid-name} {
+    display: none !important;
+  }
+  th.#{$visible}-#{$medium-grid-name},
+  td.#{$visible}-#{$medium-grid-name} {
+    display: none !important;
+  }
+  .#{$visible}-#{$large-grid-name} {
+    display: block !important;
+  }
+  tr.#{$visible}-#{$large-grid-name} {
+    display: table-row !important;
+  }
+  th.#{$visible}-#{$large-grid-name},
+  td.#{$visible}-#{$large-grid-name} {
+    display: table-cell !important;
+  }
+  .#{invisible}-#{$small-grid-name} {
+    display: block !important;
+  }
+  tr.#{invisible}-#{$small-grid-name} {
+    display: table-row !important;
+  }
+  th.#{invisible}-#{$small-grid-name},
+  td.#{invisible}-#{$small-grid-name} {
+    display: table-cell !important;
+  }
+  .#{invisible}-#{$medium-grid-name} {
+    display: block !important;
+  }
+  tr.#{invisible}-#{$medium-grid-name} {
+    display: table-row !important;
+  }
+  th.#{invisible}-#{$medium-grid-name},
+  td.#{invisible}-#{$medium-grid-name} {
+    display: table-cell !important;
+  }
+  .#{invisible}-#{$large-grid-name} {
+    display: none !important;
+  }
+  tr.#{invisible}-#{$large-grid-name} {
+    display: none !important;
+  }
+  th.#{invisible}-#{$large-grid-name},
+  td.#{invisible}-#{$large-grid-name} {
+    display: none !important;
+  }
+}
+
+.#{$visible}-print {
+  display: none !important;
+}
+
+tr.#{$visible}-print {
+  display: none !important;
+}
+
+th.#{$visible}-print,
+td.#{$visible}-print {
+  display: none !important;
+}
+
+
+@media print {
+  .#{$visible}-print {
+    display: block !important;
+  }
+  tr.#{$visible}-print {
+    display: table-row !important;
+  }
+  th.#{$visible}-print,
+  td.#{$visible}-print {
+    display: table-cell !important;
+  }
+  .#{invisible}-print {
+    display: none !important;
+  }
+  tr.#{invisible}-print {
+    display: none !important;
+  }
+  th.#{invisible}-print,
+  td.#{invisible}-print {
+    display: none !important;
+  }
+} 
+}

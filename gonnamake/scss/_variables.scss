@@ -1,6 +1,64 @@
 //
+// -------------------------------------Grid-------------------------------------//
+//
+// -------------------------------------
+$include-html-classes: true;
+$row : "row";
+$cell : "cell";
+$cells : "cells";
+$default-float: left;
+$opposite-direction: right;
+
+$small-screen: 400px;
+$medium-screen: 768px;
+$large-screen: 1280px;
+
+$screen: "only screen";
+$small: "only screen";
+$medium: "only screen and (min-width: #{$medium-screen})";
+$large: "only screen and (min-width: #{$large-screen})";
+$landscape: "only screen and (orientation: landscape)";
+$portrait: "only screen and (orientation: portrait)";
+
+$large-grid-name: "large";
+$medium-grid-name: "medium";
+$small-grid-name: "small";
+
+//
+// Grid Variables
+//
+$include-html-grid-name-classes: $include-html-classes !default;
+$em-base: 16px !default;
+@function emCalc($pxWidth) {
+  @return $pxWidth / $em-base * 1em;
+}
+$row-width: emCalc(1000px) !default;
+$column-gutter: emCalc(0px) !default;
+$total-columns: 12 !default;
+
+//
+// Block Grid Variables
+//
+$include-html-grid-classes: $include-html-classes !default;
+
+// We use this to control the maximum number of block grid elements per row
+$block-grid-elements: 12 !default;
+$block-grid-default-spacing: emCalc(20px) !default;
+
+// Enables media queries for block-grid classes. Set to false if writing semantic HTML.
+$block-grid-media-queries: true !default;
+
+//
+//-------------------------------------Hidden Grid
+//
+$visible : "visible";
+$invisible: "invisible";
+
+//
 // -------------------------------------Typography-------------------------------------//
 //
+
+
 
 // $BaseType
 // -------------------------------------//
@@ -10,7 +68,6 @@ $line-height: 1.65;
 $font-size: 112.5; // percentage value (16 * 112.5% = 18px)
 $font-base: 16 * ($font-size/100); // converts our percentage to a pixel value
 $font-family: serif; // Non-font-face font-stack
-
 $custom-font-family: false; // Custom font-face stack, if set will be added to the $font-family
 
 
@@ -25,7 +82,8 @@ $small-print-size: 65%;
 
 $body-copy-color: #444;
 $heading-color: #222;
-
+$linkColor: #4183c4;
+$linkColorHover: #333333;
 
 // $Ampersand
 // -------------------------------------//
@@ -117,6 +175,7 @@ $black: #000;
 $white: #fff;
 $blue : #00f;
 $red  : #f00;
+$grey:darken($white,50%);
 $primary : lightgreen;
 $secondary : purple;
 $success : green;
@@ -125,3 +184,49 @@ $warning: yellow;
 $info : blue;
 $background: #000;
 $variablePalette: palette;
+$contrasted-dark-default:   #000 !default;
+$contrasted-light-default:  #fff !default;
+$contrasted-lightness-threshold: 30% !default;
+$dark: $contrasted-dark-default;
+$light: $contrasted-light-default;
+$threshold: $contrasted-lightness-threshold;
+
+
+// Typography
+// -------------------------
+$sansFontFamily:        "Raleway","Ubuntu", Helvetica, Arial, sans-serif !default;
+$serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
+$monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
+
+$baseFontSize:          16px !default;
+$baseFontFamily:        $sansFontFamily !default;
+$baseLineHeight:        20px !default;
+$altFontFamily:         $serifFontFamily !default;
+
+$headingsFontFamily:    "Oswald","Ubuntu", Helvetica, Arial, sans-serif !default; // empty to use BS default, $baseFontFamily
+$headingsFontWeight:    normal !default;    // instead of browser default, bold
+$headingsColor:         inherit !default; // empty to use BS default, $textColor
+
+
+$hrBorder:                $grey !default;
+$horizontalComponentOffset:       180px !default;
+
+// Component sizing
+// -------------------------
+// Based on 14px font-size and 20px line-height
+$fontSizeLarge:         $baseFontSize * 1.25; // ~18px
+$fontSizeSmall:         $baseFontSize * 0.85; // ~12px
+$fontSizeMini:          $baseFontSize * 0.75; // ~11px
+
+$paddingLarge:          11px 19px; // 44px
+$paddingSmall:          2px 10px;  // 26px
+$padding:               6px 15px;
+$paddingMini:           0 6px;   // 22px
+
+$baseBorderRadius:      6px !default;
+$borderRadiusLarge:     10px !default;
+$borderRadiusSmall:     4px !default;
+
+$polaroidPadding: 6px;
+$polaroidPaddingSmall: 4px;
+$polaroidPaddingLarge: 10px;
