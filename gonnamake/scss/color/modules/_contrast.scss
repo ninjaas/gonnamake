@@ -24,5 +24,5 @@ $contrasted-lightness-threshold: 30% !default;
   $threshold: $contrasted-lightness-threshold
 ) {
   background-color: $background-color;
-  color: contrast-color($background-color, $dark, $light, $threshold);
+  color: contrast-color($background-color, $dark, $light, $threshold) !important;
 }
