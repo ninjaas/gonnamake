@@ -5,13 +5,29 @@
 
 @mixin typography(){
     @if $normalize == true {
-        @include normalize;
+        @if $normalizeAsDoc == true{
+            .#{$documentationTypography}{
+                @include normalize;   
+            }
+        }else{
+            @include normalize
+        }
     }
     @if $typeplate == true {
-        @include typeplate;
+        @if $typeplateAsDoc == true{
+            .#{$documentationTypography}{
+                @include typeplate;   
+            }
+        }else{
+            @include typeplate;
+        }
     }
-    @if $web-type == true{
-        .doc{
+    @if $webType == true{
+        @if $webTypeAsDoc == true{
+            .#{$documentationTypography}{
+                @include web-type;   
+            }
+        }else{
             @include web-type;
         }
     }
