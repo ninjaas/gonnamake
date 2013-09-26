@@ -171,17 +171,17 @@ $dropcap-bg: transparent;
 // -------------------------------------Color-------------------------------------//
 //
 
-$black: #000;
-$white: #fff;
-$blue : #00f;
-$red  : #f00;
-$grey:darken($white,50%);
-$primary : lightgreen;
-$secondary : purple;
-$success : green;
-$error : red;
-$warning: yellow;
-$info : blue;
+$black: #303534;
+$white: #FCFEFF;
+$blue : #35C1E7;
+$red  : #E8534F;
+$grey:darken(white,50%);
+$primary : #24B4CF;
+$secondary : #FE687D;
+$success : #25CE98;
+$error : #F06562;
+$warning: #EB5F16;
+$info : #5DCDEC;
 $background: #000;
 $variablePalette: palette;
 $contrasted-dark-default:   #000 !default;
