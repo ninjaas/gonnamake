@@ -1,0 +1,39 @@
+$baseSize: 20px;
+$textColor: $grey8;
+$formHeightBase:   $baseLineHeight;
+$inputBg:                   $white !default;
+$inputBgDisabled:           $grey3 !default;
+
+$inputBdColor:              #ccc !default;
+$inputBdRadius:             0px !default;
+$inputBdRadiusSearch:       20px !default;
+
+$inputColorPlaceholder:     $grey3 !default;
+
+$inputHeightBase:           ($baseLineHeight + 14px) !default; // base line-height + 12px vertical padding + 2px top/bottom border
+$inputHeightLarge:          ($baseLineHeight + 24px) !default; // base line-height + 22px vertical padding + 2px top/bottom border
+$inputHeightSmall:          ($baseLineHeight + 6px) !default;  // base line-height + 4px vertical padding + 2px top/bottom border
+
+
+
+$formActionsBackground:     $grey1 !default;
+
+
+// Form states and alerts
+// -------------------------
+
+$state_warningText:         darken($warning, 20%) !default;
+$state_warningBg:           lighten($warning, 31%) !default;
+$state_warningBd:           darken(adjust-hue($state_warningBg, -5), 3%) !default;
+
+$state_errorText:           darken($error, 20%) !default;
+$state_errorBg:             lighten($error, 31%) !default;
+$state_errorBd:             darken(adjust-hue($state_errorBg, -5), 3%) !default;
+
+$state_successText:         darken($success, 20%) !default;
+$state_successBg:           lighten($success, 31%) !default;
+$state_successBd:           darken(adjust-hue($state_successBg, -5), 5%) !default;
+
+$state_infoText:            darken($info, 20%) !default;
+$state_infoBg:              lighten($info, 31%) !default;
+$state_infoBd:              darken(adjust-hue($state_infoBg, -5), 7%) !default;

@@ -5,7 +5,7 @@
 @import "grid/grid";
 @import "typography/typography";
 @import "color/color";
-@import "component/buttons/buttons";
+
 @if $grid == true {
     @include grid;
 }
@@ -15,3 +15,8 @@
 @if $color == true{
     @include color;
 }
+
+@import "component/buttons/buttons";
+@import "component/forms/forms-mixins";
+@import "component/forms/forms-variables";
+@import "component/forms/forms";
