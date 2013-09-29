@@ -1,45 +1,117 @@
 <link rel="stylesheet" href="/gonnamake/css/gonnamake.css" />
+
+<style>
+    .wall{
+        min-height: 30px;
+        display: block;
+        margin:10px 0px;
+        border-radius: 5px;
+        text-align: center;
+        padding-top:10px;
+    }
+</style>
 <body>
 
     <div class="row title">
             <div class="cell large-12 palette-blue">
-                <h2>Single-break responsive</h2>
+                <h2>Responsive</h2>
             </div>
     </div>
 
     <div class="row">
-        <div class="cell large-2 small-2 medium-4 palette-primary" >L1 S2 M4</div>
-        <div class="cell large-10 small-2 medium-4 palette-secondary">L10 S2 M4</div>
+        <div class="cell large-2 small-10 medium-4 " >
+            <div class="wall palette-primary">
+                L2 S10 M4
+            </div>
+        </div>
+        <div class="cell large-10 small-2 medium-8 ">
+            <div class="wall palette-secondary">
+                L10 S2 M8
+            </div>
+        </div>
     </div>
 
     <div class="row">
-        <div class="cell large-1 small-2 medium-4 palette-blue">L1 S2 M4</div>
-        <div class="cell large-1 small-8 medium-5 palette-black">L1 S8 M5</div>
-        <div class="cell large-10 small-2 medium-7 palette-red">L10 S2 M7</div>
+        <div class="cell large-1 small-2 medium-4 ">
+            <div class="wall palette-blue">   
+                L1 S2 M4
+            </div>
+        </div>
+        <div class="cell large-1 small-8 medium-5 ">
+            <div class="wall palette-black">
+                L1 S8 M5
+            </div>
+        </div>
+        <div class="cell large-10 small-2 medium-3 ">
+            <div class="wall palette-red">
+                L10 S2 M3
+            </div>
+        </div>
     </div>
     <div class="row">
-        <div class="cell large-3 small-9 palette-success">L 3 S 9</div>
-        <div class="cell large-9 small-3 palette-error">L 9  S 3</div>
+        <div class="cell large-3 small-9 ">
+            <div class="wall palette-success">
+                L3 S9
+            </div>
+        </div>
+        <div class="cell large-9 small-3 ">
+            <div class="wall palette-error">
+                L9 S3
+                 <div class="row">
+                    <div class="cell large-6 small-5 ">
+                        <div class="wall palette-warning">
+                            L6 S5
+                        </div>
+                    </div>
+                    <div class="cell large-6 small-7 ">
+                        <div class="wall palette-info">
+                            L6 S7
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="row">
-        <div class="cell large-6 small-5 palette-warning">L 6 S 5</div>
-        <div class="cell large-6 small-7 palette-info">L 6 S 7</div>
+        <div class="cell large-6 small-5 ">
+            <div class="wall palette-warning">
+                L6 S5
+            </div>
+        </div>
+        <div class="cell large-6 small-7 ">
+            <div class="wall palette-info">
+                L6 S7
+            </div>
+        </div>
     </div>
     <div class="row">
-        <div class="cell small-8 palette-primary">S 8</div>
-        <div class="cell small-4 palette-error">S 4</div>
+        <div class="cell small-8 ">
+            <div class="wall palette-primary">
+                S8
+            </div>
+        </div>
+        <div class="cell small-4 ">
+            <div class="wall palette-error">
+                S4
+            </div>
+        </div>
     </div>
     <div class="row">
-        <div class="cell large-7 small-5 palette-black">L 7 S 5</div>
-        <div class="cell large-5 small-7 palette-blue">L 5 S 7</div>
+        <div class="cell large-7 small-5 ">
+            <div class="wall palette-black">
+                L7 S5
+            </div>
+        </div>
+        <div class="cell large-5 small-7 ">
+            <div class="wall palette-blue">
+                L5 S7
+            </div>
+        </div>
     </div>
 
 
     <div class="row">
-        <div class="large-12 cell palette-black">
-            <p>
-                <strong>Note:</strong> Gonnamake have modified this using <a  href="https://github.com/zurb/foundation">Zurb Framework</a> which is an excellent single-break responsive grid system with MIT License. But when we compared to the Grid Sturcture to that of <a href="https://github.com/twitter/bootstrap">Twitter Bootstrap</a> . Twitter is 960 non-responsive/ multi-break responsive. We used twitter bootstrap and we love it. 
-            </p>
+        <div class="large-12 cell">
             <p>
                 Gonnamake Grid is multi-break responsive grid System. With No IE 8 Support.
             </p>
@@ -48,31 +120,79 @@
     
     <div class="row">
       <div class="small-12">
-        <span class="invisible-small palette-red cell large-4">Small</span>
-        <span class="visible-small palette-green  cell large-4">&#10004; Visible on small</span>
+        <span class="invisible-small  cell large-4">
+            <div class="wall palette-error">
+                Small
+            </div>
+        </span>
+        <span class="visible-small  cell large-4">
+          <div class="wall palette-success">
+                &#10004; Visible on small
+            </div>
+        </span>
       </div>
       <div class="small-12">
-        <span class="invisible-medium palette-red  cell large-4">Medium</span>
-        <span class="visible-medium palette-green  cell large-4">&#10004; Visible on medium</span>
+        <span class="invisible-medium cell large-4">
+            <div class="wall palette-error">
+                Medium
+            </div>
+        </span>
+        <span class="visible-medium   cell large-4">
+            <div class="wall palette-success">
+                &#10004; Visible on medium
+            </div>
+        </span>
       </div>
-      <div class="small-12">
-        <span class="invisible-large palette-red cell large-4">Large</span>
-        <span class="visible-large palette-green cell large-4">&#10004; Visible on large</span>
+    <div class="small-12">
+        <span class="invisible-large cell large-4">
+            <div class="wall palette-error">
+                Large
+            </div>
+        </span>
+        <span class="visible-large   cell large-4">
+            <div class="wall palette-success">
+                &#10004; Visible on Large
+            </div>
+        </span>
       </div>
     </div>
 
     <div class="row">
       <div>
-        <span class="visible-small palette-green  cell large-4">Small</span>
-        <span class="invisible-small palette-red cell large-4">&#10004; Invisible on small</span>
+        <span class="visible-small   cell large-4">
+            <div class="wall palette-success">
+                Small
+            </div>
+        </span>
+        <span class="invisible-small cell large-4">
+            <div class="wall palette-error">
+                &#10004; Invisible on small
+            </div>
+        </span>
       </div>
       <div>
-        <span class="visible-medium palette-green cell large-4">Medium</span>
-        <span class="invisible-medium palette-red cell large-4">&#10004; Invisible on medium</span>
+        <span class="visible-medium   cell large-4">
+            <div class="wall palette-success">
+                medium
+            </div>
+        </span>
+        <span class="invisible-medium cell large-4">
+            <div class="wall palette-error">
+                &#10004; Invisible on medium
+            </div>
+        </span>
       </div>
       <div>
-        <span class="visible-large palette-green cell large-4">Large</span>
-        <span class="invisible-large palette-red cell large-4">&#10004; Invisible on large</span>
+        <span class="visible-large   cell large-4">
+            <div class="wall palette-success">
+                large
+            </div>
+        </span>
+        <span class="invisible-large cell large-4">
+            <div class="wall palette-error">
+                &#10004; Invisible on large
+            </div>
+        </span>
       </div>
     </div>
 </body>

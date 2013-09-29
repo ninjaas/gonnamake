@@ -33,7 +33,7 @@ $em-base: 16px !default;
   @return $pxWidth / $em-base * 1em;
 }
 $row-width: emCalc(1200px) !default;
-$column-gutter: emCalc(0px) !default;
+$column-gutter: emCalc(30px) !default;
 $total-columns: 12 !default;
 
 //

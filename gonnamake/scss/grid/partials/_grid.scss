@@ -25,9 +25,6 @@
 
   @media #{$small} {
 
-    .#{$cell},
-    .#{$cells} { @include grid-column($columns:false); }
-
     @for $i from 1 through $total-columns {
       .#{$small-grid-name}#{-$i} { @include grid-column($columns:$i,$collapse:null,$float:false); }
     }
